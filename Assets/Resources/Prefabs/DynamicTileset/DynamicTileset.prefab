@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1203886847297154}
+  m_IsPrefabAsset: 1
+--- !u!1 &1203886847297154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4010944955044716}
+  - component: {fileID: 114473259286703468}
+  m_Layer: 0
+  m_Name: DynamicTileset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4010944955044716
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1203886847297154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114473259286703468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1203886847297154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 545b056e202767d428ef33d93e354b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSize: 12
+  tileNone: {fileID: 1591561455053894, guid: 6d5717fe5cf46c9458d641d358bc1255, type: 2}
+  tileUp: {fileID: 1284957371426908, guid: 2e0ad7fdc59c49141b62ebaee4e61f23, type: 2}
+  tileUpRight: {fileID: 1257930701190268, guid: 488d1d1048c6199499377d2988e8e0b3,
+    type: 2}
+  tileUpDown: {fileID: 1916045705320028, guid: add52f789dfe6f041ba1c3e4ab3c8090, type: 2}
+  tileUpDownRight: {fileID: 1998963561365632, guid: 6cb895e359b89a04a8acf9ccde4353a3,
+    type: 2}
+  tileAll: {fileID: 1454226863998408, guid: a1eeddd9664212545a09fed6626f2160, type: 2}
+  specialTiles: []
+  patternTiles: []
