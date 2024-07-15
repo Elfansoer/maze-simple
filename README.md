@@ -1,11 +1,9 @@
 NOTE: This is an old hobby project made in 2018, and put in the Unity Asset Store here:
 https://assetstore.unity.com/packages/3d/environments/elfansoermaze-simple-142904
 
-Elfansoer Maze (Simple) Documentation
+# Elfansoer Maze (Simple) Documentation
 
-///////////////
-A. Introduction
-///////////////
+## Introduction
 Basic Features:
 - Procedurally-generated perfect maze (a maze that only have 1 solution).
 - Variable maze width and height.
@@ -44,10 +42,8 @@ Define your own special tiles to create special rooms for unique gameplay!
 The Special Tile is a MxN-sized tile, with a probability to appear in the room.
 The actual maze will respect the room walls, and you can specify to guarantee that each room's entrances leads to a different spot of the maze (nice for fetch quests).
 
-/////////////
-B. Usage
-/////////////
-- TL:DR;
+## Usage
+### TL:DR;
 1. Put the Maze prefab on the scene.
 2. Specify the width, height, and seed of the maze (0 is random).
 3. Click "Generate".
@@ -56,7 +52,7 @@ B. Usage
 6. There you go. The maze will stay the same if the seed is not zero, though.
 To change the maze, simply change the values and click "Generate" again.
 
-- Long Read
+### Long Read
 1. Set your Basic Tiles
 There are 6 types of basic tiles: None, Up, UpRight, UpDown, UpDownRight, and All. These tiles corresponds to maze's connectivity.
 "Up" means that within maze, the tile only connect to up direction, UpRight to up and right, and so on.
@@ -104,9 +100,7 @@ Here's a few exposed methods that you can use:
 - Destroy(): Must have existing maze. Destroy the current maze.
 - Indexes: Must have existing maze. Calling the component as maze[x,y] will get you the tile at [x,y].
 
-///////////////////
-C. Demo Scenes
-///////////////////
+## Demo Scenes
 There are 3 Demo Scenes you can use as examples:
 1. SimpleMazeScene
 This Scene is the most basic usage for the Maze.
@@ -125,9 +119,7 @@ It has a sphere player, a Maze, and a Plane. The TileSet used consisted of only 
 The Maze uses a different tileset that you can observe. Each tile is a group of walls with tag "DynamicWall" on it.
 The Wall's height is determined by how close it is to the player.
 
-///////////////////
-D. Future Releases
-///////////////////
+## Future Releases
 There's several improvements I would like to implement in this version, such as:
 1. Entrance and Exit position.
 2. Loop Maze (A maze you can create a tile around seamlessly)
