@@ -1,3 +1,6 @@
+NOTE: This is an old hobby project made in 2018, and put in the Unity Asset Store here:
+https://assetstore.unity.com/packages/3d/environments/elfansoermaze-simple-142904
+
 Elfansoer Maze (Simple) Documentation
 
 ///////////////
